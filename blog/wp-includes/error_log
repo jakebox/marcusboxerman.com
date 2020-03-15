@@ -1,0 +1,1 @@
+[09-Mar-2017 19:49:00 America/Detroit] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/marcusbo/public_html/blog/wp-includes/rss-functions.php on line 8

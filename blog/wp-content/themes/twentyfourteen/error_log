@@ -1,0 +1,1 @@
+[04-Mar-2017 14:50:39 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/marcusbo/public_html/blog/wp-content/themes/twentyfourteen/404.php on line 10
