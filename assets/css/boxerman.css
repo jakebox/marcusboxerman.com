@@ -341,7 +341,9 @@ a:focus {
 }
 
 .jumbotron h3 {
-  line-height: 20px; 
+/*  Line height grows as viewport width shrinks (subtract less as vw <)*/
+  line-height: calc(1.4em - 0.55vw); 
+	/*line-height: 20px;*/
 }
 
 .footer .container {
@@ -356,6 +358,10 @@ a:focus {
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   width: 940px;
+}
+
+.span13 {
+  width: 300px;
 }
 
 .span12 {
@@ -404,6 +410,10 @@ a:focus {
 
 .span1 {
   width: 60px;
+}
+
+.offset13 {
+  margin-left: 50px;
 }
 
 .offset12 {
@@ -490,6 +500,11 @@ a:focus {
   margin-left: 2.127659574468085%;
 }
 
+.row-fluid .span13 {
+  width: 31.914893617021278%;
+  *width: 31.861702127659576%;
+}
+
 .row-fluid .span12 {
   width: 100%;
   *width: 99.94680851063829%;
@@ -548,6 +563,16 @@ a:focus {
 .row-fluid .span1 {
   width: 6.382978723404255%;
   *width: 6.329787234042553%;
+}
+
+.row-fluid .offset13 {
+  margin-left: 0.39%;
+  *margin-left: 0.39%;
+}
+
+.row-fluid .offset13:first-child {
+  margin-left: 0.39%;
+  *margin-left: 0.39%;
 }
 
 .row-fluid .offset12 {
@@ -1522,6 +1547,12 @@ textarea.span5,
 input.span4,
 textarea.span4,
 .uneditable-input.span4 {
+  width: 286px;
+}
+
+input.dspan3,
+textarea.dspan3,
+.uneditable-input.dspan3 {
   width: 286px;
 }
 
