@@ -1,9 +1,14 @@
 BEGIN:VCARD
-N:Knabe;Mile;;Associate Attorney;
-ADR;INTL;PARCEL;WORK:;;20 North Clark St., Ste. 2500;Chicago;Illinois;60602;United States
-EMAIL;INTERNET:mknabe@marcusboxerman.com
-ORG:Marcus & Boxerman
-TEL;WORK:312-216-2734
-TEL;FAX;WORK:312-216-2731
-URL;WORK:http://www.marcusboxerman.com
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.14.6//EN
+N:Knabe;Míle;;;
+FN: Míle Knabe
+ORG:Marcus & Boxerman;
+EMAIL;type=INTERNET;type=pref:mknabe@marcusboxerman.com
+TEL;type=WORK;type=VOICE;type=pref:312-216-2734
+TEL;type=WORK;type=FAX:312-216-2731
+ADR;type=WORK;type=pref:;;20 North Clark St.\, Ste. 2500;Chicago;Illinois;60602;United States
+URL;type=WORK;type=pref:http://www.marcusboxerman.com
+UID:52f7a58f-c495-40f0-b588-54d52bed17c8
+X-ABUID:C087CA2F-44FE-4670-B0D7-05235A055B4E:ABPerson
 END:VCARD
